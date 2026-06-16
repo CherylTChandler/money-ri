@@ -49,7 +49,7 @@ function getPar(name) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 };
 
-var text_number = '+1-866-315-3640';
+var text_number = '+1-844-950-5521';
 document.querySelector('meta[property="telephone"]').setAttribute("content", text_number);
 document.querySelector('.telephone').innerText = text_number;
 window.number = getPar('phone');
